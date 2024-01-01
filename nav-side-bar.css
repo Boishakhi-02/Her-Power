@@ -1,0 +1,40 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.mitu{
+    float: left;
+}
+.ritu{
+    float: right;
+}
+.rekha{
+    padding: 30px;
+}
+.rekha a{
+    font-size: 40px;
+    color: rgb(255, 0, 43);
+}
+a:hover{
+    text-decoration: none;
+}
+.nav{
+    background-color: black;
+    height: 70px;
+}
+.sbelement{
+    background-color: black;
+    padding: 20px;
+    width: 200px;
+}
+.sbelement li{
+    padding-top: 10px;
+}
+.navbtn{
+    display: none;
+}
+.navbtn:checked ~ .sbelement{
+    margin-left: 0px;
+}

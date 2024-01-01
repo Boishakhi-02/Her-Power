@@ -1,0 +1,16 @@
+.grid-container{
+display: grid;
+grid-template-columns: 100px 100px 100px 100px;
+grid-templete-rows: 100px 100px 100px;
+justify-content: center;
+gap:2px;
+}
+.grid-container div{
+background-color: blueviolet;
+color: brown;
+justify-content: center;
+align-content: center;
+border: 2px solid white;
+}
+
+

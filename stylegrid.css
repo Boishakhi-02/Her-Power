@@ -1,0 +1,19 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows:auto;
+    justify-content: center;
+    gap: 2px;
+    justify-content:auto;
+}
+.grid-container div{
+    display: grid;
+    background-color: aqua;
+    border: 1px solid brown;
+    justify-content: center ;
+    align-content:center;
+}
+.item1{
+    grid-column-end: 3;
+    grid-column-start: 1;
+}

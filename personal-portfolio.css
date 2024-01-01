@@ -1,0 +1,82 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.hero-title{
+    margin-top: 100px;
+}
+.hero-border{
+    border: 2px solid green;
+}
+.seemore{
+    color: blueviolet;
+}
+.seemore:hover{
+    background-color: aqua;
+    color: brown;
+    padding: 6px;
+    border-radius: 2px;
+}
+.container-fluid{
+    border: 1px solid green;
+}
+a:hover{
+    text-decoration: none;
+    background-color: blanchedalmond;
+    padding: 8px;
+    border-radius: 3px;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: aqua;
+    height: 70px;
+}
+.logo{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.logo b a{
+   
+    color: blanchedalmdond;
+}
+nav ul{
+
+float: right;
+margin-top: 20px;
+}
+nav ul li{
+    display:inline-block;
+}
+ul li a{
+    color: red;
+    padding: 8px;
+}
+ul li a:hover{
+    background-color: pink;
+    color: black;
+    border-radius: 2px;
+    padding: 8px;
+}
+.cat{
+    position: absolute;
+    display: none;
+    margin-top: 0;
+    background-color: aqua;
+}
+.cat li{
+    display: block;
+    padding: 8px;
+    border-bottom: 1px solid pink;
+}
+.cat li a{
+    color: blue;
+}
+.drop-down:hover .cat{
+    display: block;
+
+}

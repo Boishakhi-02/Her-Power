@@ -1,0 +1,96 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.floatright{
+    float: right;
+}
+.floatleft{
+    float: left;
+    color: brown;
+}
+.padding32{
+    padding:32px;
+    
+}
+.padding32 a{ 
+  
+    font-size: 25px;  
+    color: aqua;
+}
+a{
+    color: gray;
+    
+}
+a:hover{
+    text-decoration: none;
+}
+.nav{
+  background-color: black;
+  height: 70px;
+}
+i{
+    color: azure;
+    margin-right: 20px;
+}
+
+.sb-element{
+    padding: 20px;
+    
+    width: 150px;
+    background-color:black;
+    margin-left: -200px;
+    transition: .7s;
+}
+.sb-element li{
+    padding-top: 10px;
+}
+#nav-btn{
+    display: none;
+}
+
+
+#nav-btn:checked ~ .sb-element{
+    margin-left: 0px;
+    transition: .7s;
+}
+label{
+    cursor: pointer;
+    border-right: 1px solid red;
+    display: block;
+    height: 64px;
+    width: 64px;
+    position: relative;
+}
+label span{
+    border-radius: 15%;
+    height: 3px;
+    width:32px ;
+    background-color: aqua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+}
+label span:before {
+    border-radius: 15%;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    top: -400%;
+    transition: .6s;
+}
+label span:after {
+    border-radius: 15%;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    top: 400%;
+    transition: .6s;
+}

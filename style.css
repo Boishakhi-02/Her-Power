@@ -1,0 +1,30 @@
+nav{
+    background-color: aqua;
+    height: 70px;
+}
+.logo{
+    margin-left: 20px;
+    font-size: 50px;
+}
+logo b a{
+    color: black;
+}
+nav ul li a {
+    color: brown;
+    padding: 8px;
+}
+nav ul li a:hover{
+padding: 8px;
+border-radius: 5px;
+background-color: blue;
+color: azure;
+padding: 8px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 2opx;
+}
+nav ul{
+    float: right;
+}
